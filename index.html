@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>MEDI</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav nav">
+        <img class="logo" src="images/logo.svg" alt="Logo-MEDI">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="tel:+71234567890">+7 (123) 456 78 90</a></li>
+          <li class="nav__item nav--dropdown">
+            <a class="nav__link" href="">Наши салоны</a>
+
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn"></button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+
+          </li>
+          <li class="nav__item nav__item--vision"><a class="nav__link" href="">Версия для слабовидящих</a></li>
+          <li class="nav__item"><a class="nav__link" href=""><img class="nav--vk" src="images/socials/vk.svg"
+                alt="vk"></a></li>
+          <li class="nav__item"><a class="nav__link" href=""><img class="nav--youtube" src="images/socials/youtube.svg"
+                alt="youtube"></a></li>
+          <li class="nav__item"><a class="nav__link" href=""><img class="nav--facebook"
+                src="images/socials/facebook.svg" alt="facebook"></a></li>
+          <li class="nav__item"><a class="nav__link" href=""><img class="nav--instagram"
+                src="images/socials/instagram.svg" alt="instagram"></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+
+        <div class="hero__block">
+          <div class="hero__menu">
+            <ul class="hero__menu-list">
+              <li class="hero__menu-item"><a class="hero__menu-link" href="#">Косметология</a></li>
+              <li class="hero__menu-item"><a class="hero__menu-link" href="#">Пластическая хирургия</a></li>
+              <li class="hero__menu-item"><a class="hero__menu-link" href="#">Стоматология</a></li>
+              <li class="hero__menu-item"><a class="hero__menu-link" href="#">Лазерная медицина</a></li>
+              <li class="hero__menu-item"><a class="hero__menu-link" href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <a class="hero__reserved" href="#">Запись на прием</a>
+        </div>
+
+        <div class="hero__block">
+          <div class="hero__desc">
+            <h1 class="hero__title">
+              Косметология
+            </h1>
+            <p class="hero__text">
+              Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная, подтянутая фигура — сегодня
+              это неотъемлемые черты привлекательной внешности, характеризующие человека благополучного и успешного.
+            </p>
+            <a href="#" class="hero__link">подробнее</a>
+          </div>
+          <div class="hero__slider">
+            <img class="hero__photo" src="images/slider/photo1.jpg" alt="photo1">
+            <button></button>
+            <button></button>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
