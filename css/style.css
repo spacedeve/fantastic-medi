@@ -199,3 +199,54 @@ body {
   padding: 15px 25px;
   background-color: #00868a;
 }
+
+.hero__slider {
+  position: relative;
+}
+
+.hero__photo {}
+
+.hero__btn {
+  padding: 25px 30px;
+  border: 1px solid #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  position: absolute;
+  bottom: 60px;
+}
+
+.hero__btn--left {
+  background-image: url(../images/slider/arrow-left.svg);
+  left: -180px;
+  border-right: none;
+}
+
+.hero__btn--right {
+  background-image: url(../images/slider/arrow-right.svg);
+  left: -120px;
+}
+
+.hero__block:last-child {
+  padding-top: 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.hero__categories {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 150%;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.hero__categories:nth-child(odd) {
+  background-color: #00868a;
+}
+
+.hero__categories a {
+  text-decoration: none;
+  color: #fff;
+}
