@@ -130,6 +130,7 @@ body {
 
 .hero {
   background-color: #4fbfa5;
+  margin-bottom: 80px;
 }
 
 .hero__block {
@@ -250,3 +251,33 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
+.aesthetic__innovations {
+  margin-bottom: 80px;
+}
+
+.innovations {}
+
+.innovations__title {}
+
+.subtitle {}
+
+.innovations__text {}
+
+.innovations__link {}
+
+.innovations__img {}
+
+.aesthetic__numbers {}
+
+.numbers {}
+
+.numbers__title {}
+
+.numbers__list {}
+
+.numbers__item {}
+
+.number {}
+
+.text {}
