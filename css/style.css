@@ -15,10 +15,6 @@ body {
   padding: 0;
 }
 
-img {
-  width: 100%;
-}
-
 .container {
   max-width: 1330px;
   margin: 0 auto;
@@ -209,7 +205,26 @@ img {
   position: relative;
 }
 
-.hero__photo {}
+.slider-container {
+  position: relative;
+  width: 746px;
+  height: 533px;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  transition: all .25s ease-in-out;
+}
+
+.hero__photo {
+  width: 746px;
+  height: 533px;
+}
 
 .hero__btn {
   padding: 25px 30px;
